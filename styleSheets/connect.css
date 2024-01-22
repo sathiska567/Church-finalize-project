@@ -173,7 +173,7 @@ footer .copyright {
 }
 
 .secondLeft {
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-left: 13.5vh;
     flex: 1;
 }
@@ -222,15 +222,11 @@ footer .copyright {
     gap: 30px;
 }
 
-.service {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
+
 .secondLeft {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
 .secondLeft h2 {
@@ -432,6 +428,43 @@ footer .copyright {
     display: flex;
     flex-direction: row;
     gap: 10%;
+}
+
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; /* Adjust this value to increase or decrease the gap */
+}
+.circle-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #D2B48C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.circle-icon i {
+    font-size: 26px;
+    color: white;
+}
+
+.icon-text p {
+    margin: 0;
 }
 
 // Small devices (landscape phones, 576px and up)
