@@ -59,7 +59,7 @@ html, body {
 }
 
 .navbar {
-    background-color: transparent !important;
+   background-color: rgba(255, 255, 255, 0.3) !important; ;
     position: fixed;
     top: 0; 
     width: 100%; 
@@ -438,6 +438,11 @@ footer .copyright {
     padding: 20px; /* Add some padding so the circle isn't too tight around the icon */
     display: inline-block; /* Needed for padding to work */
 }
+
+.social {
+    margin-top: auto;
+    margin-bottom: auto;
+} 
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 

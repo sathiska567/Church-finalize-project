@@ -19,7 +19,7 @@ html, body {
 }
 
 .navbar {
-    background-color: transparent !important;
+    background-color: rgba(255, 255, 255, 0.3) !important; ;
     position: fixed;
     top: 0; 
     width: 100%; 
@@ -318,6 +318,11 @@ footer .copyright {
     background-color: transparent;
     text-align: center;
 }
+
+.social {
+    margin-top: auto;
+    margin-bottom: auto;
+} 
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
