@@ -20,7 +20,7 @@ html, body {
     gap: 0;
 }
 .Homecontainer {
-    background-image: url('../images/church5.jpg');
+    background-image: url('../images/church10.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@ footer .copyright {
 
 .thirdLeft{
     flex: 1;
-    background-image: url('../images/church7.jpg');
+    background-image: url('../images/people5.jpg');
     background-position: center;
     background-repeat: no-repeat;
     width: 50%;
@@ -426,6 +426,12 @@ footer .copyright {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
 }
 
 // Small devices (landscape phones, 576px and up)
