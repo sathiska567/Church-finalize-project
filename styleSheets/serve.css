@@ -82,7 +82,7 @@ html, body {
 }
 
 .nav-link {
-    color: #85bfe8 !important;
+    color: #FECF73 !important;
     font-size: 18px;
     font-weight: bold;
     border-bottom: 3px solid transparent; 
@@ -273,6 +273,11 @@ footer .copyright {
     color: white;
     font-size: 18px;
     transition: background-color 0.3s ease-in-out;
+}
+
+.Button a {
+    color: white;
+    text-decoration: none;
 }
 
 .Button:hover {

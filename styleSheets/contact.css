@@ -1,0 +1,357 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.full-size-div {
+    height: 100vh;
+    width: 100%;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.Homecontainer {
+    background-image: url('../images/church14.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.HomeFirst {
+    padding-top: 17%;
+    padding-left: 10%;
+}
+
+.HomeFirst h4 {
+    z-index: 2;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #010010;
+}
+
+.HomeFirst h1 {
+    z-index: 2;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #010010;
+}
+
+
+/*----------------------Navbar-----Start-------------*/
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../fonts/logoFont2.TTF') format('woff2'),
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.3) !important; ;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 11;
+}
+.navbar-nav {
+    margin-left: auto !important;
+    padding : 10px;
+    float: right;
+}
+
+.navbar-brand {
+    font-family: 'MyCustomFont';
+    font-size: 40px;
+    font-weight: bold;
+    color: white !important;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.nav-link {
+    color: #FECF73 !important;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 3px solid transparent; 
+    transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    border-bottom-color: rgba(109, 174, 223, 0.5);
+}
+
+/*----------------------Navbar-----End-------------*/
+
+
+.secondDiv {
+    margin-top: 10vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.secondLeft {
+    margin-top: 15vh;
+    margin-left: 13.5vh;
+    flex: 1;
+}
+
+.map {
+    height: 100vh !important;
+    width: 100%;
+}
+
+footer {
+    margin-top: 10vh;
+    background-color: black !important;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+footer div {
+    margin: 20px;
+}
+
+
+footer p, footer li {
+    color: white;
+}
+
+footer ul {
+    padding: 0;
+    width: 100px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #D2B48C;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.secondDiv {
+    margin-top: 10vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.secondLeft {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 13.5vh;
+    flex: 1;
+}
+
+
+.secondRight {
+    width: 100%;
+    flex: 1;
+}
+
+.thirdDiv {
+    margin-top: 10vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.circle-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #D2B48C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-icon i {
+    font-size: 30px;
+    color: white;
+}
+.serviceDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.serviceDivItem {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.secondLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 40px !important;
+}
+
+.secondLeft h2 {
+    font-size: 48px;
+    letter-spacing: 2px;
+
+}
+
+.secondLeft h2::first-letter {
+    border-bottom: 5px solid #D2B48C;
+}
+
+.secondLeft p {
+    width: 90%;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    color: #808080;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.service > div:first-child {
+    font-size: 24px;
+    font-weight: 700;
+    color: #D2B48C;
+    letter-spacing: 1px;
+}
+
+.Button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #638C9E;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 10px;
+    width: 280px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.Button:hover {
+    background-color: #477081;
+}
+
+.Button i {
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Button:hover i {
+    transform: translateX(5px);
+}
+
+
+.thirdDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdLeft{
+    flex: 1;
+    background-image: url('../images/church7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height:100vh;
+
+}
+
+.thirdRight {
+    flex: 1;
+    margin-left: 13.5vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.thirdRight h2 {
+    font-size: 48px;
+    letter-spacing: 2px;
+
+}
+
+.thirdRight h2::first-letter {
+    border-bottom: 5px solid #D2B48C;
+}
+
+
+.thirdRight p {
+    width: 90%;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    color: #808080;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.secondLeft b i {
+    margin-right: 10px; 
+}
+
+.social {
+    margin-top: auto;
+    margin-bottom: auto;
+} 
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+        .logo {
+        display: none !important;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .logo {
+        display: none !important;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
+ }
+
